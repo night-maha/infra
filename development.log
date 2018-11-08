@@ -1,0 +1,587 @@
+  [1m[35m (3.5ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE DATABASE `db/development` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE DATABASE `db/test` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:18
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (25.2ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (12.1ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT GET_LOCK('8115692404137957555', 0)[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+Migrating to CreateBoards (20181106060336)
+  [1m[35m (12.9ms)[0m  [1m[35mCREATE TABLE `boards` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `title` varchar(255), `text` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ db/migrate/20181106060336_create_boards.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20181106060336')[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2018-11-06 06:03:52', '2018-11-06 06:03:52')[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8115692404137957555')[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT GET_LOCK('8115692404137957555', 0)[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('8115692404137957555')[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:18
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:18
+Started GET "/home/maharu/lesson2" for 221.249.77.222 at 2018-11-07 01:33:19 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23
+  
+AbstractController::ActionNotFound (The action 'indax' could not be found for BoardsController):
+  
+actionpack (5.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+rack (2.0.5) lib/rack/urlmap.rb:68:in `block in call'
+rack (2.0.5) lib/rack/urlmap.rb:53:in `each'
+rack (2.0.5) lib/rack/urlmap.rb:53:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/lint.rb:49:in `_call'
+rack (2.0.5) lib/rack/lint.rb:37:in `call'
+rack (2.0.5) lib/rack/show_exceptions.rb:23:in `call'
+rack (2.0.5) lib/rack/common_logger.rb:33:in `call'
+rack (2.0.5) lib/rack/chunked.rb:54:in `call'
+rack (2.0.5) lib/rack/content_length.rb:15:in `call'
+unicorn (5.4.1) lib/unicorn/http_server.rb:606:in `process_client'
+unicorn (5.4.1) lib/unicorn/http_server.rb:701:in `worker_loop'
+unicorn (5.4.1) lib/unicorn/http_server.rb:549:in `spawn_missing_workers'
+unicorn (5.4.1) lib/unicorn/http_server.rb:142:in `start'
+unicorn (5.4.1) bin/unicorn:126:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `<top (required)>'
+bundler (1.17.1) lib/bundler/cli/exec.rb:74:in `load'
+bundler (1.17.1) lib/bundler/cli/exec.rb:74:in `kernel_load'
+bundler (1.17.1) lib/bundler/cli/exec.rb:28:in `run'
+bundler (1.17.1) lib/bundler/cli.rb:463:in `exec'
+bundler (1.17.1) lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+bundler (1.17.1) lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+bundler (1.17.1) lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+bundler (1.17.1) lib/bundler/cli.rb:27:in `dispatch'
+bundler (1.17.1) lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+bundler (1.17.1) lib/bundler/cli.rb:18:in `start'
+bundler (1.17.1) exe/bundle:30:in `block in <top (required)>'
+bundler (1.17.1) lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+bundler (1.17.1) exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+Started GET "/home/maharu/lesson2" for 221.249.77.222 at 2018-11-07 01:47:43 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23
+  
+AbstractController::ActionNotFound (The action 'indax' could not be found for BoardsController):
+  
+actionpack (5.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+rack (2.0.5) lib/rack/urlmap.rb:68:in `block in call'
+rack (2.0.5) lib/rack/urlmap.rb:53:in `each'
+rack (2.0.5) lib/rack/urlmap.rb:53:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/lint.rb:49:in `_call'
+rack (2.0.5) lib/rack/lint.rb:37:in `call'
+rack (2.0.5) lib/rack/show_exceptions.rb:23:in `call'
+rack (2.0.5) lib/rack/common_logger.rb:33:in `call'
+rack (2.0.5) lib/rack/chunked.rb:54:in `call'
+rack (2.0.5) lib/rack/content_length.rb:15:in `call'
+unicorn (5.4.1) lib/unicorn/http_server.rb:606:in `process_client'
+unicorn (5.4.1) lib/unicorn/http_server.rb:701:in `worker_loop'
+unicorn (5.4.1) lib/unicorn/http_server.rb:549:in `spawn_missing_workers'
+unicorn (5.4.1) lib/unicorn/http_server.rb:142:in `start'
+unicorn (5.4.1) bin/unicorn:126:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `<top (required)>'
+bundler (1.17.1) lib/bundler/cli/exec.rb:74:in `load'
+bundler (1.17.1) lib/bundler/cli/exec.rb:74:in `kernel_load'
+bundler (1.17.1) lib/bundler/cli/exec.rb:28:in `run'
+bundler (1.17.1) lib/bundler/cli.rb:463:in `exec'
+bundler (1.17.1) lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+bundler (1.17.1) lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+bundler (1.17.1) lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+bundler (1.17.1) lib/bundler/cli.rb:27:in `dispatch'
+bundler (1.17.1) lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+bundler (1.17.1) lib/bundler/cli.rb:18:in `start'
+bundler (1.17.1) exe/bundle:30:in `block in <top (required)>'
+bundler (1.17.1) lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+bundler (1.17.1) exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+Started GET "/home/maharu/lesson2" for 221.249.77.222 at 2018-11-07 01:52:33 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23
+Processing by BoardsController#index as HTML
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:15
+  Rendered boards/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 281ms (Views: 274.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home/maharu/lesson2/boards/new" for 221.249.77.222 at 2018-11-07 01:52:36 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#new as HTML
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (10.2ms)
+  Rendered boards/new.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 185ms (Views: 172.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/home/maharu/lesson2/boards" for 221.249.77.222 at 2018-11-07 01:52:39 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#index as HTML
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:15
+  Rendered boards/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home/maharu/lesson2/boards/new" for 118.240.156.121 at 2018-11-07 02:15:04 +0000
+Cannot render console from 118.240.156.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23
+Processing by BoardsController#new as HTML
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (1.6ms)
+  Rendered boards/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/maharu/lesson2/boards" for 118.240.156.121 at 2018-11-07 02:15:18 +0000
+Cannot render console from 118.240.156.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23
+Processing by BoardsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ceipqcBr7tyu5by3DFHl4Z+jhqZC5ZDYIOXK0K69YvczRyaMSnTruF4jMo/SBDeBHFkf5LSII7uFkGgvPX3alA==", "board"=>{"title"=>"test", "text"=>"test"}, "commit"=>"Create Board"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:30
+  [1m[36mBoard Create (0.2ms)[0m  [1m[32mINSERT INTO `boards` (`title`, `text`, `created_at`, `updated_at`) VALUES ('test', 'test', '2018-11-07 02:15:18', '2018-11-07 02:15:18')[0m
+  ↳ app/controllers/boards_controller.rb:30
+  [1m[35m (3.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:30
+Redirected to http://13.59.178.94/home/maharu/lesson2/boards/1
+Completed 302 Found in 16ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/home/maharu/lesson2/boards/1" for 118.240.156.121 at 2018-11-07 02:15:18 +0000
+Cannot render console from 118.240.156.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (0.4ms)[0m  [1m[34mSELECT  `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:67
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 25.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home/maharu/lesson2/boards" for 118.240.156.121 at 2018-11-07 02:15:24 +0000
+Cannot render console from 118.240.156.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#index as HTML
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:15
+  Rendered boards/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home/maharu/lesson2/boards/1" for 118.240.156.121 at 2018-11-07 02:15:29 +0000
+Cannot render console from 118.240.156.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT  `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:67
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 28ms (Views: 25.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home/maharu/lesson2/boards" for 118.240.156.121 at 2018-11-07 02:15:32 +0000
+Cannot render console from 118.240.156.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#index as HTML
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:15
+  Rendered boards/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home/maharu/lesson2" for 221.249.77.222 at 2018-11-07 03:53:08 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23
+Processing by BoardsController#index as HTML
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:15
+  Rendered boards/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:18
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:18
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:20
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT  `boards`.* FROM `boards` LIMIT 11[0m
+  [1m[36mBoard Load (0.4ms)[0m  [1m[34mSELECT  `boards`.* FROM `boards` LIMIT 11[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:20
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:20
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:20
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:16
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:16
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:16
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:16
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:16
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:16
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:16
+Started GET "/home/maharu/lesson2" for 221.249.77.222 at 2018-11-07 13:05:22 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23
+Processing by BoardsController#index as HTML
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:15
+  Rendered boards/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 215ms (Views: 207.6ms | ActiveRecord: 1.2ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:16
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:23
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:23
+  [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ config/unicorn.rb:23
+Started GET "/" for 221.249.77.222 at 2018-11-08 06:51:33 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23
+Processing by BoardsController#index as HTML
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:15
+  Rendered boards/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 159ms (Views: 152.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 221.249.77.222 at 2018-11-08 06:53:32 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#index as HTML
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:15
+  Rendered boards/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 54ms (Views: 46.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/boards/new" for 221.249.77.222 at 2018-11-08 06:53:37 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#new as HTML
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (28.0ms)
+  Rendered boards/new.html.erb within layouts/application (29.4ms)
+Completed 200 OK in 56ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/boards" for 221.249.77.222 at 2018-11-08 06:53:41 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aG8LH3kM8HUW8QTLHb+wNRvXNh1bqnRcmNQotJpkyuuAmzeKJApBfUNFaKi3PcBVXQGp67Iw1H/B4Xb2whVIzQ==", "board"=>{"title"=>"aaaa", "text"=>"sssss"}, "commit"=>"Create Board"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:30
+  [1m[36mBoard Create (0.3ms)[0m  [1m[32mINSERT INTO `boards` (`title`, `text`, `created_at`, `updated_at`) VALUES ('aaaa', 'sssss', '2018-11-08 06:53:41', '2018-11-08 06:53:41')[0m
+  ↳ app/controllers/boards_controller.rb:30
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:30
+Redirected to http://13.59.178.94/boards/2
+Completed 302 Found in 18ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/boards/2" for 221.249.77.222 at 2018-11-08 06:53:42 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT  `boards`.* FROM `boards` WHERE `boards`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:67
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 32.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/boards" for 221.249.77.222 at 2018-11-08 06:53:44 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#index as HTML
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:15
+  Rendered boards/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/boards/2" for 221.249.77.222 at 2018-11-08 06:53:46 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT  `boards`.* FROM `boards` WHERE `boards`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:67
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/boards" for 221.249.77.222 at 2018-11-08 06:53:48 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#index as HTML
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:15
+  Rendered boards/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/boards/2/edit" for 221.249.77.222 at 2018-11-08 06:53:49 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT  `boards`.* FROM `boards` WHERE `boards`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:67
+  Rendering boards/edit.html.erb within layouts/application
+  Rendered boards/_form.html.erb (1.7ms)
+  Rendered boards/edit.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/boards" for 221.249.77.222 at 2018-11-08 06:53:50 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#index as HTML
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:15
+  Rendered boards/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/boards/2" for 221.249.77.222 at 2018-11-08 06:53:53 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+5tUPFwkSnJ3lAJ/QiHnpj09/IGiqMTeWLWBZ79fncoUaXb3WRddrn7sMKZcXsTAdloCX4eOahpFoKa32faRyQ==", "id"=>"2"}
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT  `boards`.* FROM `boards` WHERE `boards`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:67
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:57
+  [1m[36mBoard Destroy (4.3ms)[0m  [1m[31mDELETE FROM `boards` WHERE `boards`.`id` = 2[0m
+  ↳ app/controllers/boards_controller.rb:57
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:57
+Redirected to http://13.59.178.94/boards
+Completed 302 Found in 9ms (ActiveRecord: 6.9ms)
+
+
+Started GET "/boards" for 221.249.77.222 at 2018-11-08 06:53:53 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#index as HTML
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:15
+  Rendered boards/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 31ms (Views: 28.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/boards/new" for 221.249.77.222 at 2018-11-08 06:53:56 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#new as HTML
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/_form.html.erb (1.6ms)
+  Rendered boards/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/boards" for 221.249.77.222 at 2018-11-08 06:53:59 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"80Ti5FnT2zDsrmZv9+8QfNdaGQXZjvDWxxeyT6yPPMIbsN5xBNVqOLkaCgxdbWAckYyG8zAUUPWeIuwN9P6+5A==", "board"=>{"title"=>"dsadasdas", "text"=>"dsadsadsa"}, "commit"=>"Create Board"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:30
+  [1m[36mBoard Create (2.2ms)[0m  [1m[32mINSERT INTO `boards` (`title`, `text`, `created_at`, `updated_at`) VALUES ('dsadasdas', 'dsadsadsa', '2018-11-08 06:53:59', '2018-11-08 06:53:59')[0m
+  ↳ app/controllers/boards_controller.rb:30
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:30
+Redirected to http://13.59.178.94/boards/3
+Completed 302 Found in 6ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/boards/3" for 221.249.77.222 at 2018-11-08 06:54:00 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT  `boards`.* FROM `boards` WHERE `boards`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:67
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/boards" for 221.249.77.222 at 2018-11-08 06:54:03 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#index as HTML
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:15
+  Rendered boards/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/boards" for 221.249.77.222 at 2018-11-08 06:54:05 +0000
+Cannot render console from 221.249.77.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoardsController#index as HTML
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:15
+  Rendered boards/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.3ms)
+
+

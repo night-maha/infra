@@ -1,0 +1,91 @@
+D, [2018-11-07T13:30:17.314151 #5201] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-11-07T13:30:58.642648 #5299] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-11-07T13:30:58.680965 #5299] DEBUG -- :   [1m[35m (27.5ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+D, [2018-11-07T13:30:58.694811 #5299] DEBUG -- :   [1m[35m (12.2ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+D, [2018-11-07T13:30:58.696110 #5299] DEBUG -- :   [1m[35m (1.0ms)[0m  [1m[34mSELECT GET_LOCK('7301231183495299680', 0)[0m
+D, [2018-11-07T13:30:58.699763 #5299] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+I, [2018-11-07T13:30:58.700122 #5299]  INFO -- : Migrating to CreateBoards (20181106060336)
+D, [2018-11-07T13:30:58.714711 #5299] DEBUG -- :   [1m[35m (11.7ms)[0m  [1m[35mCREATE TABLE `boards` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `title` varchar(255), `text` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+D, [2018-11-07T13:30:58.716542 #5299] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2018-11-07T13:30:58.718284 #5299] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Create (1.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20181106060336')[0m
+D, [2018-11-07T13:30:58.720046 #5299] DEBUG -- :   [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2018-11-07T13:30:58.722836 #5299] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+D, [2018-11-07T13:30:58.726043 #5299] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2018-11-07T13:30:58.726878 #5299] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'production', '2018-11-07 13:30:58', '2018-11-07 13:30:58')[0m
+D, [2018-11-07T13:30:58.728786 #5299] DEBUG -- :   [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2018-11-07T13:30:58.729027 #5299] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('7301231183495299680')[0m
+I, [2018-11-07T13:32:12.355205 #5211]  INFO -- : [e95efe5a-eabf-461b-8f4a-bdb6e2067b58] Started GET "/home/maharu/lesson2" for 221.249.77.222 at 2018-11-07 13:32:12 +0000
+I, [2018-11-07T13:32:12.362076 #5211]  INFO -- : [e95efe5a-eabf-461b-8f4a-bdb6e2067b58] Processing by BoardsController#index as HTML
+I, [2018-11-07T13:32:12.370523 #5211]  INFO -- : [e95efe5a-eabf-461b-8f4a-bdb6e2067b58]   Rendering boards/index.html.erb within layouts/application
+D, [2018-11-07T13:32:12.372727 #5211] DEBUG -- : [e95efe5a-eabf-461b-8f4a-bdb6e2067b58]   [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-11-07T13:32:12.373692 #5211] DEBUG -- : [e95efe5a-eabf-461b-8f4a-bdb6e2067b58]   [1m[36mBoard Load (0.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+I, [2018-11-07T13:32:12.375687 #5211]  INFO -- : [e95efe5a-eabf-461b-8f4a-bdb6e2067b58]   Rendered boards/index.html.erb within layouts/application (5.1ms)
+I, [2018-11-07T13:32:12.377377 #5211]  INFO -- : [e95efe5a-eabf-461b-8f4a-bdb6e2067b58] Completed 500 Internal Server Error in 15ms (ActiveRecord: 1.1ms)
+F, [2018-11-07T13:32:12.378097 #5211] FATAL -- : [e95efe5a-eabf-461b-8f4a-bdb6e2067b58]   
+F, [2018-11-07T13:32:12.378142 #5211] FATAL -- : [e95efe5a-eabf-461b-8f4a-bdb6e2067b58] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+F, [2018-11-07T13:32:12.378232 #5211] FATAL -- : [e95efe5a-eabf-461b-8f4a-bdb6e2067b58]      5:     <%= csrf_meta_tags %>
+[e95efe5a-eabf-461b-8f4a-bdb6e2067b58]      6:     <%= csp_meta_tag %>
+[e95efe5a-eabf-461b-8f4a-bdb6e2067b58]      7: 
+[e95efe5a-eabf-461b-8f4a-bdb6e2067b58]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[e95efe5a-eabf-461b-8f4a-bdb6e2067b58]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[e95efe5a-eabf-461b-8f4a-bdb6e2067b58]     10:   </head>
+[e95efe5a-eabf-461b-8f4a-bdb6e2067b58]     11: 
+F, [2018-11-07T13:32:12.378258 #5211] FATAL -- : [e95efe5a-eabf-461b-8f4a-bdb6e2067b58]   
+F, [2018-11-07T13:32:12.378274 #5211] FATAL -- : [e95efe5a-eabf-461b-8f4a-bdb6e2067b58] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4060893093040443001_47318526672500'
+I, [2018-11-07T13:32:42.983933 #5207]  INFO -- : [a681ffda-8ca5-4e7e-b26f-fa3572fbb70e] Started GET "/home/maharu/lesson2" for 221.249.77.222 at 2018-11-07 13:32:42 +0000
+I, [2018-11-07T13:32:42.988350 #5207]  INFO -- : [a681ffda-8ca5-4e7e-b26f-fa3572fbb70e] Processing by BoardsController#index as HTML
+I, [2018-11-07T13:32:42.996829 #5207]  INFO -- : [a681ffda-8ca5-4e7e-b26f-fa3572fbb70e]   Rendering boards/index.html.erb within layouts/application
+D, [2018-11-07T13:32:42.999189 #5207] DEBUG -- : [a681ffda-8ca5-4e7e-b26f-fa3572fbb70e]   [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-11-07T13:32:43.000164 #5207] DEBUG -- : [a681ffda-8ca5-4e7e-b26f-fa3572fbb70e]   [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+I, [2018-11-07T13:32:43.002196 #5207]  INFO -- : [a681ffda-8ca5-4e7e-b26f-fa3572fbb70e]   Rendered boards/index.html.erb within layouts/application (5.2ms)
+I, [2018-11-07T13:32:43.004060 #5207]  INFO -- : [a681ffda-8ca5-4e7e-b26f-fa3572fbb70e] Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.9ms)
+F, [2018-11-07T13:32:43.004902 #5207] FATAL -- : [a681ffda-8ca5-4e7e-b26f-fa3572fbb70e]   
+F, [2018-11-07T13:32:43.005011 #5207] FATAL -- : [a681ffda-8ca5-4e7e-b26f-fa3572fbb70e] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+F, [2018-11-07T13:32:43.005189 #5207] FATAL -- : [a681ffda-8ca5-4e7e-b26f-fa3572fbb70e]      5:     <%= csrf_meta_tags %>
+[a681ffda-8ca5-4e7e-b26f-fa3572fbb70e]      6:     <%= csp_meta_tag %>
+[a681ffda-8ca5-4e7e-b26f-fa3572fbb70e]      7: 
+[a681ffda-8ca5-4e7e-b26f-fa3572fbb70e]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[a681ffda-8ca5-4e7e-b26f-fa3572fbb70e]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[a681ffda-8ca5-4e7e-b26f-fa3572fbb70e]     10:   </head>
+[a681ffda-8ca5-4e7e-b26f-fa3572fbb70e]     11: 
+F, [2018-11-07T13:32:43.005318 #5207] FATAL -- : [a681ffda-8ca5-4e7e-b26f-fa3572fbb70e]   
+F, [2018-11-07T13:32:43.005404 #5207] FATAL -- : [a681ffda-8ca5-4e7e-b26f-fa3572fbb70e] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4060893093040443001_47318526619140'
+D, [2018-11-07T13:38:27.043785 #5639] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+I, [2018-11-07T13:38:41.390571 #5643]  INFO -- : [646ba19c-a4b9-4888-9da4-703d38dc89d3] Started GET "/home/maharu/lesson2" for 221.249.77.222 at 2018-11-07 13:38:41 +0000
+I, [2018-11-07T13:38:41.394743 #5643]  INFO -- : [646ba19c-a4b9-4888-9da4-703d38dc89d3] Processing by BoardsController#index as HTML
+I, [2018-11-07T13:38:41.403554 #5643]  INFO -- : [646ba19c-a4b9-4888-9da4-703d38dc89d3]   Rendering boards/index.html.erb within layouts/application
+D, [2018-11-07T13:38:41.405691 #5643] DEBUG -- : [646ba19c-a4b9-4888-9da4-703d38dc89d3]   [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-11-07T13:38:41.406555 #5643] DEBUG -- : [646ba19c-a4b9-4888-9da4-703d38dc89d3]   [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+I, [2018-11-07T13:38:41.408489 #5643]  INFO -- : [646ba19c-a4b9-4888-9da4-703d38dc89d3]   Rendered boards/index.html.erb within layouts/application (4.9ms)
+I, [2018-11-07T13:38:41.410394 #5643]  INFO -- : [646ba19c-a4b9-4888-9da4-703d38dc89d3] Completed 500 Internal Server Error in 16ms (ActiveRecord: 1.0ms)
+F, [2018-11-07T13:38:41.411296 #5643] FATAL -- : [646ba19c-a4b9-4888-9da4-703d38dc89d3]   
+F, [2018-11-07T13:38:41.411354 #5643] FATAL -- : [646ba19c-a4b9-4888-9da4-703d38dc89d3] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+F, [2018-11-07T13:38:41.411578 #5643] FATAL -- : [646ba19c-a4b9-4888-9da4-703d38dc89d3]      5:     <%= csrf_meta_tags %>
+[646ba19c-a4b9-4888-9da4-703d38dc89d3]      6:     <%= csp_meta_tag %>
+[646ba19c-a4b9-4888-9da4-703d38dc89d3]      7: 
+[646ba19c-a4b9-4888-9da4-703d38dc89d3]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[646ba19c-a4b9-4888-9da4-703d38dc89d3]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[646ba19c-a4b9-4888-9da4-703d38dc89d3]     10:   </head>
+[646ba19c-a4b9-4888-9da4-703d38dc89d3]     11: 
+F, [2018-11-07T13:38:41.411606 #5643] FATAL -- : [646ba19c-a4b9-4888-9da4-703d38dc89d3]   
+F, [2018-11-07T13:38:41.411639 #5643] FATAL -- : [646ba19c-a4b9-4888-9da4-703d38dc89d3] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4302661169269082600_47415019700700'
+I, [2018-11-07T13:38:54.145218 #5649]  INFO -- : [0f17243b-365f-4603-9069-d8101e2bb86b] Started GET "/home/maharu/lesson2" for 221.249.77.222 at 2018-11-07 13:38:54 +0000
+I, [2018-11-07T13:38:54.148183 #5649]  INFO -- : [0f17243b-365f-4603-9069-d8101e2bb86b] Processing by BoardsController#index as HTML
+I, [2018-11-07T13:38:54.156874 #5649]  INFO -- : [0f17243b-365f-4603-9069-d8101e2bb86b]   Rendering boards/index.html.erb within layouts/application
+D, [2018-11-07T13:38:54.158974 #5649] DEBUG -- : [0f17243b-365f-4603-9069-d8101e2bb86b]   [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-11-07T13:38:54.159748 #5649] DEBUG -- : [0f17243b-365f-4603-9069-d8101e2bb86b]   [1m[36mBoard Load (0.3ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+I, [2018-11-07T13:38:54.161567 #5649]  INFO -- : [0f17243b-365f-4603-9069-d8101e2bb86b]   Rendered boards/index.html.erb within layouts/application (4.6ms)
+I, [2018-11-07T13:38:54.163307 #5649]  INFO -- : [0f17243b-365f-4603-9069-d8101e2bb86b] Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.9ms)
+F, [2018-11-07T13:38:54.164168 #5649] FATAL -- : [0f17243b-365f-4603-9069-d8101e2bb86b]   
+F, [2018-11-07T13:38:54.164221 #5649] FATAL -- : [0f17243b-365f-4603-9069-d8101e2bb86b] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+F, [2018-11-07T13:38:54.164339 #5649] FATAL -- : [0f17243b-365f-4603-9069-d8101e2bb86b]      5:     <%= csrf_meta_tags %>
+[0f17243b-365f-4603-9069-d8101e2bb86b]      6:     <%= csp_meta_tag %>
+[0f17243b-365f-4603-9069-d8101e2bb86b]      7: 
+[0f17243b-365f-4603-9069-d8101e2bb86b]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[0f17243b-365f-4603-9069-d8101e2bb86b]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[0f17243b-365f-4603-9069-d8101e2bb86b]     10:   </head>
+[0f17243b-365f-4603-9069-d8101e2bb86b]     11: 
+F, [2018-11-07T13:38:54.164384 #5649] FATAL -- : [0f17243b-365f-4603-9069-d8101e2bb86b]   
+F, [2018-11-07T13:38:54.164405 #5649] FATAL -- : [0f17243b-365f-4603-9069-d8101e2bb86b] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4302661169269082600_47415019669160'
+D, [2018-11-07T13:47:39.173315 #5959] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-11-07T13:50:45.303853 #6237] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m

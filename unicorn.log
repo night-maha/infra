@@ -1,0 +1,1270 @@
+I, [2018-11-05T07:51:46.571272 #5310]  INFO -- : Refreshing Gem list
+I, [2018-11-05T07:51:46.975791 #5310]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+bundler: failed to load command: unicorn (/home/maharu/.rbenv/versions/2.5.3/bin/unicorn)
+Gem::LoadError: Error loading the 'sqlite3' Active Record adapter. Missing a gem it depends on? sqlite3 is not part of the bundle. Add it to your Gemfile.
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/rubygems_integration.rb:408:in `block (2 levels) in replace_gem'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:12:in `<main>'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `block in require_with_bootsnap_lfi'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/loaded_features_index.rb:65:in `register'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:20:in `require_with_bootsnap_lfi'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:29:in `require'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `block in require'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:253:in `load_dependency'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `require'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:191:in `spec'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:950:in `establish_connection'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:60:in `establish_connection'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/railtie.rb:136:in `block (2 levels) in <class:Railtie>'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:71:in `instance_eval'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:71:in `block in execute_hook'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:62:in `with_execution_control'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:67:in `execute_hook'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:51:in `each'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/base.rb:328:in `<module:ActiveRecord>'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/base.rb:27:in `<main>'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `block in require_with_bootsnap_lfi'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/loaded_features_index.rb:65:in `register'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:20:in `require_with_bootsnap_lfi'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:29:in `require'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `block in require'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:253:in `load_dependency'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `require'
+  /home/maharu/lesson2/config/unicorn.rb:18:in `block in reload'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
+  /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `load'
+  /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `<top (required)>'
+I, [2018-11-05T08:30:43.827878 #5582]  INFO -- : Refreshing Gem list
+I, [2018-11-05T08:30:44.233782 #5582]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-05T08:30:44.233931 #5582]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+E, [2018-11-05T08:30:44.323622 #5582] ERROR -- : Access denied for user 'maharu'@'localhost' (using password: NO) (Mysql2::Error::ConnectionError)
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/mysql2-0.5.2/lib/mysql2/client.rb:90:in `connect'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/mysql2-0.5.2/lib/mysql2/client.rb:90:in `initialize'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `new'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `mysql2_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:90:in `connection'
+/home/maharu/lesson2/config/unicorn.rb:18:in `block in reload'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:28:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:463:in `exec'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:27:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:18:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:30:in `block in <top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+I, [2018-11-05T08:40:54.306418 #5819]  INFO -- : Refreshing Gem list
+I, [2018-11-05T08:40:54.701288 #5819]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-05T08:40:54.701450 #5819]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+E, [2018-11-05T08:40:54.768082 #5819] ERROR -- : Access denied for user 'maharu'@'localhost' (using password: YES) (Mysql2::Error::ConnectionError)
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/mysql2-0.5.2/lib/mysql2/client.rb:90:in `connect'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/mysql2-0.5.2/lib/mysql2/client.rb:90:in `initialize'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `new'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `mysql2_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:90:in `connection'
+/home/maharu/lesson2/config/unicorn.rb:18:in `block in reload'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:28:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:463:in `exec'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:27:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:18:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:30:in `block in <top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+I, [2018-11-05T08:49:21.443737 #5875]  INFO -- : Refreshing Gem list
+I, [2018-11-05T08:49:21.830123 #5875]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-05T08:49:21.830286 #5875]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+E, [2018-11-05T08:49:21.896060 #5875] ERROR -- : Access denied for user 'root'@'localhost' (Mysql2::Error)
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/mysql2-0.5.2/lib/mysql2/client.rb:90:in `connect'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/mysql2-0.5.2/lib/mysql2/client.rb:90:in `initialize'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `new'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `mysql2_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:90:in `connection'
+/home/maharu/lesson2/config/unicorn.rb:18:in `block in reload'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:28:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:463:in `exec'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:27:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:18:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:30:in `block in <top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+I, [2018-11-05T09:07:27.282448 #6315]  INFO -- : Refreshing Gem list
+I, [2018-11-05T09:07:27.672902 #6315]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-05T09:07:27.673044 #6315]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+E, [2018-11-05T09:07:27.739424 #6315] ERROR -- : Unknown database 'db/development' (ActiveRecord::NoDatabaseError)
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:26:in `rescue in mysql2_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:12:in `mysql2_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:90:in `connection'
+/home/maharu/lesson2/config/unicorn.rb:18:in `block in reload'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:28:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:463:in `exec'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:27:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:18:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:30:in `block in <top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+I, [2018-11-05T09:09:58.340984 #6409]  INFO -- : Refreshing Gem list
+I, [2018-11-05T09:09:58.752770 #6409]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-05T09:09:58.752921 #6409]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+I, [2018-11-05T09:09:58.828076 #6409]  INFO -- : master process ready
+I, [2018-11-05T09:09:58.833427 #6419]  INFO -- : worker=0 ready
+I, [2018-11-05T09:09:58.834505 #6421]  INFO -- : worker=1 ready
+bundler: failed to load command: unicorn (/home/maharu/.rbenv/versions/2.5.3/bin/unicorn)
+ArgumentError: Already running on PID:6409 (or pid=/tmp/unicorn.pid is stale)
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
+  /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `load'
+  /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `<top (required)>'
+I, [2018-11-06T07:13:36.166364 #6409]  INFO -- : reaped #<Process::Status: pid 6419 exit 0> worker=0
+I, [2018-11-06T07:13:36.166540 #6409]  INFO -- : reaped #<Process::Status: pid 6421 exit 0> worker=1
+I, [2018-11-06T07:13:36.166741 #6409]  INFO -- : master complete
+I, [2018-11-06T09:09:21.496895 #24039]  INFO -- : Refreshing Gem list
+I, [2018-11-06T09:09:23.111735 #24039]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-06T09:09:23.111869 #24039]  INFO -- : listening on addr=/tmp/unicorn.sock fd=11
+bundler: failed to load command: unicorn (/home/maharu/.rbenv/versions/2.5.3/bin/unicorn)
+ArgumentError: Already running on PID:24039 (or pid=/tmp/unicorn.pid is stale)
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
+  /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `load'
+  /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `<top (required)>'
+E, [2018-11-06T09:11:23.179144 #24039] ERROR -- : Can't connect to MySQL server on '13.59.178.94' (110) (Mysql2::Error::ConnectionError)
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/mysql2-0.5.2/lib/mysql2/client.rb:90:in `connect'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/mysql2-0.5.2/lib/mysql2/client.rb:90:in `initialize'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `new'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `mysql2_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:90:in `connection'
+config/unicorn.rb:18:in `block in reload'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn_rails:209:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:28:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:463:in `exec'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:27:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:18:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:30:in `block in <top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+I, [2018-11-06T09:16:54.070618 #24147]  INFO -- : Refreshing Gem list
+I, [2018-11-06T09:16:54.490096 #24147]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-06T09:16:54.490230 #24147]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+bundler: failed to load command: unicorn (/home/maharu/.rbenv/versions/2.5.3/bin/unicorn)
+ArgumentError: Already running on PID:24147 (or pid=/tmp/unicorn.pid is stale)
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
+  /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `load'
+  /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `<top (required)>'
+E, [2018-11-06T09:18:54.554708 #24147] ERROR -- : Can't connect to MySQL server on '13.59.178.94' (110) (Mysql2::Error::ConnectionError)
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/mysql2-0.5.2/lib/mysql2/client.rb:90:in `connect'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/mysql2-0.5.2/lib/mysql2/client.rb:90:in `initialize'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `new'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `mysql2_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:90:in `connection'
+/home/maharu/lesson2/config/unicorn.rb:18:in `block in reload'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:28:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:463:in `exec'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:27:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:18:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:30:in `block in <top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+I, [2018-11-06T09:29:57.086568 #24245]  INFO -- : Refreshing Gem list
+I, [2018-11-06T09:29:57.514900 #24245]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-06T09:29:57.515061 #24245]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+bundler: failed to load command: unicorn (/home/maharu/.rbenv/versions/2.5.3/bin/unicorn)
+ArgumentError: Already running on PID:24245 (or pid=/tmp/unicorn.pid is stale)
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:205:in `pid='
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:137:in `start'
+  /home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
+  /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `load'
+  /home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `<top (required)>'
+E, [2018-11-06T09:31:57.582557 #24245] ERROR -- : Can't connect to MySQL server on '13.59.178.94' (110) (Mysql2::Error::ConnectionError)
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/mysql2-0.5.2/lib/mysql2/client.rb:90:in `connect'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/mysql2-0.5.2/lib/mysql2/client.rb:90:in `initialize'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `new'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `mysql2_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:90:in `connection'
+/home/maharu/lesson2/config/unicorn.rb:18:in `block in reload'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:28:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:463:in `exec'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:27:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:18:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:30:in `block in <top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+I, [2018-11-06T09:33:54.078989 #24326]  INFO -- : Refreshing Gem list
+I, [2018-11-06T09:33:54.604533 #24326]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-06T09:33:54.604676 #24326]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+E, [2018-11-06T09:35:55.875910 #24326] ERROR -- : Can't connect to MySQL server on '13.59.178.94' (110) (Mysql2::Error::ConnectionError)
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/mysql2-0.5.2/lib/mysql2/client.rb:90:in `connect'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/mysql2-0.5.2/lib/mysql2/client.rb:90:in `initialize'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `new'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `mysql2_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:90:in `connection'
+config/unicorn.rb:18:in `block in reload'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn_rails:209:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `<main>'
+I, [2018-11-06T09:37:40.068637 #24377]  INFO -- : Refreshing Gem list
+I, [2018-11-06T09:37:40.473068 #24377]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-06T09:37:40.473230 #24377]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+E, [2018-11-06T09:39:40.538399 #24377] ERROR -- : Can't connect to MySQL server on '13.59.178.94' (110) (Mysql2::Error::ConnectionError)
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/mysql2-0.5.2/lib/mysql2/client.rb:90:in `connect'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/mysql2-0.5.2/lib/mysql2/client.rb:90:in `initialize'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `new'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `mysql2_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:90:in `connection'
+/home/maharu/lesson2/config/unicorn.rb:18:in `block in reload'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn:126:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn:23:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:28:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:463:in `exec'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:27:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:18:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:30:in `block in <top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+I, [2018-11-06T09:58:47.660356 #24438]  INFO -- : Refreshing Gem list
+I, [2018-11-06T09:58:48.085692 #24438]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-06T09:58:48.085862 #24438]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+I, [2018-11-06T09:58:48.161159 #24438]  INFO -- : master process ready
+I, [2018-11-06T09:58:48.166496 #24448]  INFO -- : worker=0 ready
+I, [2018-11-06T09:58:48.167672 #24450]  INFO -- : worker=1 ready
+I, [2018-11-06T10:47:34.585526 #24438]  INFO -- : reaped #<Process::Status: pid 24448 exit 0> worker=0
+I, [2018-11-06T10:47:34.585617 #24438]  INFO -- : reaped #<Process::Status: pid 24450 exit 0> worker=1
+I, [2018-11-06T10:47:34.585703 #24438]  INFO -- : master complete
+I, [2018-11-06T10:59:30.969071 #25019]  INFO -- : Refreshing Gem list
+I, [2018-11-06T10:59:31.384866 #25019]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-06T10:59:31.385016 #25019]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+I, [2018-11-06T10:59:31.453765 #25019]  INFO -- : master process ready
+I, [2018-11-06T10:59:31.459203 #25029]  INFO -- : worker=0 ready
+I, [2018-11-06T10:59:31.460206 #25031]  INFO -- : worker=1 ready
+221.249.77.222 - - [07/Nov/2018:01:33:19 +0000] "GET /home/maharu/lesson2 HTTP/1.0" 404 2975 0.1519
+189.110.124.66 - - [07/Nov/2018:01:39:17 +0000] "GET / HTTP/1.0" 404 - 0.0010
+221.249.77.222 - - [07/Nov/2018:01:47:43 +0000] "GET /home/maharu/lesson2 HTTP/1.0" 404 2975 0.0559
+221.249.77.222 - - [07/Nov/2018:01:52:33 +0000] "GET /home/maharu/lesson2 HTTP/1.0" 200 - 0.3456
+221.249.77.222 - - [07/Nov/2018:01:52:33 +0000] "GET /assets/boards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:01:52:33 +0000] "GET /assets/scaffolds.self-baa48258f063d6bb3c9e3eb7426d5de7c8e24116921a96e2a26494fb5013424d.css?body=1 HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:01:52:33 +0000] "GET /assets/application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1 HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:01:52:33 +0000] "GET /assets/rails-ujs.self-3b600681e552d8090230990c0a2e8537aff48159bea540d275a620d272ba33a0.js?body=1 HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:01:52:33 +0000] "GET /assets/activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1 HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:01:52:33 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:01:52:33 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0011
+221.249.77.222 - - [07/Nov/2018:01:52:33 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:01:52:34 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:01:52:34 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:01:52:36 +0000] "GET /home/maharu/lesson2/boards/new HTTP/1.0" 200 - 0.2091
+221.249.77.222 - - [07/Nov/2018:01:52:37 +0000] "GET /assets/scaffolds.self-baa48258f063d6bb3c9e3eb7426d5de7c8e24116921a96e2a26494fb5013424d.css?body=1 HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:01:52:37 +0000] "GET /assets/boards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 404 - 0.0007
+221.249.77.222 - - [07/Nov/2018:01:52:37 +0000] "GET /assets/application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1 HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:01:52:37 +0000] "GET /assets/rails-ujs.self-3b600681e552d8090230990c0a2e8537aff48159bea540d275a620d272ba33a0.js?body=1 HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:01:52:37 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:01:52:37 +0000] "GET /assets/activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1 HTTP/1.0" 404 - 0.0023
+221.249.77.222 - - [07/Nov/2018:01:52:37 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:01:52:37 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:01:52:37 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0003
+221.249.77.222 - - [07/Nov/2018:01:52:37 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0011
+221.249.77.222 - - [07/Nov/2018:01:52:37 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:01:52:37 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0007
+221.249.77.222 - - [07/Nov/2018:01:52:37 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:01:52:37 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:01:52:37 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0010
+221.249.77.222 - - [07/Nov/2018:01:52:39 +0000] "GET /home/maharu/lesson2/boards HTTP/1.0" 200 - 0.0333
+221.249.77.222 - - [07/Nov/2018:01:52:39 +0000] "GET /assets/activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1 HTTP/1.0" 404 - 0.0023
+221.249.77.222 - - [07/Nov/2018:01:52:39 +0000] "GET /assets/scaffolds.self-baa48258f063d6bb3c9e3eb7426d5de7c8e24116921a96e2a26494fb5013424d.css?body=1 HTTP/1.0" 404 - 0.0018
+221.249.77.222 - - [07/Nov/2018:01:52:39 +0000] "GET /assets/boards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 404 - 0.0018
+221.249.77.222 - - [07/Nov/2018:01:52:39 +0000] "GET /assets/rails-ujs.self-3b600681e552d8090230990c0a2e8537aff48159bea540d275a620d272ba33a0.js?body=1 HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:01:52:40 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:01:52:40 +0000] "GET /assets/application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1 HTTP/1.0" 404 - 0.0025
+221.249.77.222 - - [07/Nov/2018:01:52:40 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:01:52:40 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0011
+221.249.77.222 - - [07/Nov/2018:01:52:40 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:01:52:40 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:01:52:40 +0000] "GET /assets/activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1 HTTP/1.0" 404 - 0.0011
+221.249.77.222 - - [07/Nov/2018:01:52:40 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:01:52:40 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:01:52:40 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0013
+221.249.77.222 - - [07/Nov/2018:01:52:40 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:01:52:41 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0006
+118.240.156.121 - - [07/Nov/2018:02:15:04 +0000] "GET /home/maharu/lesson2/boards/new HTTP/1.0" 200 - 0.0193
+118.240.156.121 - - [07/Nov/2018:02:15:04 +0000] "GET /assets/boards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 404 - 0.0013
+118.240.156.121 - - [07/Nov/2018:02:15:04 +0000] "GET /assets/scaffolds.self-baa48258f063d6bb3c9e3eb7426d5de7c8e24116921a96e2a26494fb5013424d.css?body=1 HTTP/1.0" 404 - 0.0047
+118.240.156.121 - - [07/Nov/2018:02:15:04 +0000] "GET /assets/application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1 HTTP/1.0" 404 - 0.0006
+118.240.156.121 - - [07/Nov/2018:02:15:04 +0000] "GET /assets/rails-ujs.self-3b600681e552d8090230990c0a2e8537aff48159bea540d275a620d272ba33a0.js?body=1 HTTP/1.0" 404 - 0.0004
+118.240.156.121 - - [07/Nov/2018:02:15:04 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0004
+118.240.156.121 - - [07/Nov/2018:02:15:04 +0000] "GET /assets/activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1 HTTP/1.0" 404 - 0.0004
+118.240.156.121 - - [07/Nov/2018:02:15:04 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0004
+118.240.156.121 - - [07/Nov/2018:02:15:04 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0004
+118.240.156.121 - - [07/Nov/2018:02:15:05 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0008
+118.240.156.121 - - [07/Nov/2018:02:15:05 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0016
+118.240.156.121 - - [07/Nov/2018:02:15:05 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0005
+118.240.156.121 - - [07/Nov/2018:02:15:05 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0009
+118.240.156.121 - - [07/Nov/2018:02:15:05 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0005
+118.240.156.121 - - [07/Nov/2018:02:15:05 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0009
+118.240.156.121 - - [07/Nov/2018:02:15:05 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0006
+118.240.156.121 - - [07/Nov/2018:02:15:18 +0000] "POST /home/maharu/lesson2/boards HTTP/1.0" 302 - 0.0396
+118.240.156.121 - - [07/Nov/2018:02:15:18 +0000] "GET /home/maharu/lesson2/boards/1 HTTP/1.0" 200 - 0.0373
+118.240.156.121 - - [07/Nov/2018:02:15:18 +0000] "GET /assets/boards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 404 - 0.0013
+118.240.156.121 - - [07/Nov/2018:02:15:18 +0000] "GET /assets/scaffolds.self-baa48258f063d6bb3c9e3eb7426d5de7c8e24116921a96e2a26494fb5013424d.css?body=1 HTTP/1.0" 404 - 0.0011
+118.240.156.121 - - [07/Nov/2018:02:15:19 +0000] "GET /assets/application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1 HTTP/1.0" 404 - 0.0013
+118.240.156.121 - - [07/Nov/2018:02:15:19 +0000] "GET /assets/rails-ujs.self-3b600681e552d8090230990c0a2e8537aff48159bea540d275a620d272ba33a0.js?body=1 HTTP/1.0" 404 - 0.0007
+118.240.156.121 - - [07/Nov/2018:02:15:19 +0000] "GET /assets/activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1 HTTP/1.0" 404 - 0.0006
+118.240.156.121 - - [07/Nov/2018:02:15:19 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0012
+118.240.156.121 - - [07/Nov/2018:02:15:19 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0007
+118.240.156.121 - - [07/Nov/2018:02:15:19 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0007
+118.240.156.121 - - [07/Nov/2018:02:15:19 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0014
+118.240.156.121 - - [07/Nov/2018:02:15:19 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0007
+118.240.156.121 - - [07/Nov/2018:02:15:19 +0000] "GET /assets/activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1 HTTP/1.0" 404 - 0.0006
+118.240.156.121 - - [07/Nov/2018:02:15:19 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0014
+118.240.156.121 - - [07/Nov/2018:02:15:20 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0008
+118.240.156.121 - - [07/Nov/2018:02:15:20 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0014
+118.240.156.121 - - [07/Nov/2018:02:15:20 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0008
+118.240.156.121 - - [07/Nov/2018:02:15:20 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0008
+118.240.156.121 - - [07/Nov/2018:02:15:24 +0000] "GET /home/maharu/lesson2/boards HTTP/1.0" 200 - 0.0393
+118.240.156.121 - - [07/Nov/2018:02:15:24 +0000] "GET /assets/boards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 404 - 0.0008
+118.240.156.121 - - [07/Nov/2018:02:15:24 +0000] "GET /assets/scaffolds.self-baa48258f063d6bb3c9e3eb7426d5de7c8e24116921a96e2a26494fb5013424d.css?body=1 HTTP/1.0" 404 - 0.0008
+118.240.156.121 - - [07/Nov/2018:02:15:24 +0000] "GET /assets/application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1 HTTP/1.0" 404 - 0.0006
+118.240.156.121 - - [07/Nov/2018:02:15:24 +0000] "GET /assets/activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1 HTTP/1.0" 404 - 0.0012
+118.240.156.121 - - [07/Nov/2018:02:15:24 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0010
+118.240.156.121 - - [07/Nov/2018:02:15:24 +0000] "GET /assets/rails-ujs.self-3b600681e552d8090230990c0a2e8537aff48159bea540d275a620d272ba33a0.js?body=1 HTTP/1.0" 404 - 0.0008
+118.240.156.121 - - [07/Nov/2018:02:15:24 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0005
+118.240.156.121 - - [07/Nov/2018:02:15:24 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0003
+118.240.156.121 - - [07/Nov/2018:02:15:24 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0016
+118.240.156.121 - - [07/Nov/2018:02:15:24 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0003
+118.240.156.121 - - [07/Nov/2018:02:15:24 +0000] "GET /assets/activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1 HTTP/1.0" 404 - 0.0013
+118.240.156.121 - - [07/Nov/2018:02:15:25 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0005
+118.240.156.121 - - [07/Nov/2018:02:15:25 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0005
+118.240.156.121 - - [07/Nov/2018:02:15:25 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0011
+118.240.156.121 - - [07/Nov/2018:02:15:25 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0005
+118.240.156.121 - - [07/Nov/2018:02:15:25 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0005
+118.240.156.121 - - [07/Nov/2018:02:15:29 +0000] "GET /home/maharu/lesson2/boards/1 HTTP/1.0" 200 - 0.0318
+118.240.156.121 - - [07/Nov/2018:02:15:30 +0000] "GET /assets/scaffolds.self-baa48258f063d6bb3c9e3eb7426d5de7c8e24116921a96e2a26494fb5013424d.css?body=1 HTTP/1.0" 404 - 0.0005
+118.240.156.121 - - [07/Nov/2018:02:15:30 +0000] "GET /assets/boards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 404 - 0.0004
+118.240.156.121 - - [07/Nov/2018:02:15:30 +0000] "GET /assets/activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1 HTTP/1.0" 404 - 0.0004
+118.240.156.121 - - [07/Nov/2018:02:15:30 +0000] "GET /assets/application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1 HTTP/1.0" 404 - 0.0003
+118.240.156.121 - - [07/Nov/2018:02:15:30 +0000] "GET /assets/rails-ujs.self-3b600681e552d8090230990c0a2e8537aff48159bea540d275a620d272ba33a0.js?body=1 HTTP/1.0" 404 - 0.0003
+118.240.156.121 - - [07/Nov/2018:02:15:30 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0003
+118.240.156.121 - - [07/Nov/2018:02:15:30 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0005
+118.240.156.121 - - [07/Nov/2018:02:15:30 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0010
+118.240.156.121 - - [07/Nov/2018:02:15:30 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0004
+118.240.156.121 - - [07/Nov/2018:02:15:30 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0003
+118.240.156.121 - - [07/Nov/2018:02:15:30 +0000] "GET /assets/activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1 HTTP/1.0" 404 - 0.0010
+118.240.156.121 - - [07/Nov/2018:02:15:30 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0005
+118.240.156.121 - - [07/Nov/2018:02:15:30 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0005
+118.240.156.121 - - [07/Nov/2018:02:15:31 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0005
+118.240.156.121 - - [07/Nov/2018:02:15:31 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0005
+118.240.156.121 - - [07/Nov/2018:02:15:31 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0012
+118.240.156.121 - - [07/Nov/2018:02:15:33 +0000] "GET /home/maharu/lesson2/boards HTTP/1.0" 200 - 0.0157
+118.240.156.121 - - [07/Nov/2018:02:15:33 +0000] "GET /assets/rails-ujs.self-3b600681e552d8090230990c0a2e8537aff48159bea540d275a620d272ba33a0.js?body=1 HTTP/1.0" 404 - 0.0012
+118.240.156.121 - - [07/Nov/2018:02:15:33 +0000] "GET /assets/activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1 HTTP/1.0" 404 - 0.0011
+118.240.156.121 - - [07/Nov/2018:02:15:33 +0000] "GET /assets/boards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 404 - 0.0015
+118.240.156.121 - - [07/Nov/2018:02:15:33 +0000] "GET /assets/scaffolds.self-baa48258f063d6bb3c9e3eb7426d5de7c8e24116921a96e2a26494fb5013424d.css?body=1 HTTP/1.0" 404 - 0.0016
+118.240.156.121 - - [07/Nov/2018:02:15:33 +0000] "GET /assets/application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1 HTTP/1.0" 404 - 0.0012
+118.240.156.121 - - [07/Nov/2018:02:15:33 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0003
+118.240.156.121 - - [07/Nov/2018:02:15:33 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0017
+118.240.156.121 - - [07/Nov/2018:02:15:33 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0016
+118.240.156.121 - - [07/Nov/2018:02:15:33 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0004
+118.240.156.121 - - [07/Nov/2018:02:15:33 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0004
+118.240.156.121 - - [07/Nov/2018:02:15:33 +0000] "GET /assets/activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1 HTTP/1.0" 404 - 0.0010
+118.240.156.121 - - [07/Nov/2018:02:15:33 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0005
+118.240.156.121 - - [07/Nov/2018:02:15:34 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0005
+118.240.156.121 - - [07/Nov/2018:02:15:34 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0011
+118.240.156.121 - - [07/Nov/2018:02:15:34 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0005
+118.240.156.121 - - [07/Nov/2018:02:15:34 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0005
+87.76.13.184 - - [07/Nov/2018:02:17:03 +0000] "GET / HTTP/1.0" 404 - 0.0004
+109.73.186.151 - - [07/Nov/2018:02:36:54 +0000] "GET / HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:03:52:26 +0000] "GET / HTTP/1.0" 404 - 0.0011
+221.249.77.222 - - [07/Nov/2018:03:52:30 +0000] "GET / HTTP/1.0" 404 - 0.0011
+221.249.77.222 - - [07/Nov/2018:03:52:38 +0000] "GET / HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:03:52:38 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:03:52:39 +0000] "GET / HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:03:52:39 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:03:52:39 +0000] "GET / HTTP/1.0" 404 - 0.0011
+221.249.77.222 - - [07/Nov/2018:03:52:39 +0000] "GET / HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:03:52:39 +0000] "GET / HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:03:52:39 +0000] "GET / HTTP/1.0" 404 - 0.0012
+221.249.77.222 - - [07/Nov/2018:03:52:40 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:03:52:58 +0000] "GET /home HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:03:53:08 +0000] "GET /home/maharu/lesson2 HTTP/1.0" 200 - 0.0332
+221.249.77.222 - - [07/Nov/2018:03:53:08 +0000] "GET /assets/scaffolds.self-baa48258f063d6bb3c9e3eb7426d5de7c8e24116921a96e2a26494fb5013424d.css?body=1 HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:03:53:08 +0000] "GET /assets/boards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:03:53:08 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:03:53:08 +0000] "GET /assets/application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1 HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:03:53:08 +0000] "GET /assets/rails-ujs.self-3b600681e552d8090230990c0a2e8537aff48159bea540d275a620d272ba33a0.js?body=1 HTTP/1.0" 404 - 0.0003
+221.249.77.222 - - [07/Nov/2018:03:53:08 +0000] "GET /assets/activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1 HTTP/1.0" 404 - 0.0010
+221.249.77.222 - - [07/Nov/2018:03:53:08 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0010
+221.249.77.222 - - [07/Nov/2018:03:53:08 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:03:53:08 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:03:53:08 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0011
+221.249.77.222 - - [07/Nov/2018:03:53:08 +0000] "GET /assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:03:53:09 +0000] "GET /assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:03:53:09 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:03:53:09 +0000] "GET /assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:03:53:09 +0000] "GET /assets/application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:03:57:11 +0000] "GET /var/www/lesson2 HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:03:57:14 +0000] "GET /var/www/ HTTP/1.0" 404 - 0.0004
+181.129.192.141 - - [07/Nov/2018:04:04:12 +0000] "GET / HTTP/1.0" 404 - 0.0005
+185.53.91.24 - - [07/Nov/2018:04:08:55 +0000] "GET /admin/assets/js/views/login.js HTTP/1.0" 404 - 0.0004
+109.80.87.63 - - [07/Nov/2018:05:02:19 +0000] "GET / HTTP/1.0" 404 - 0.0005
+139.162.106.181 - - [07/Nov/2018:05:15:09 +0000] "GET / HTTP/1.0" 404 - 0.0005
+71.6.232.4 - - [07/Nov/2018:06:42:27 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:07:36:27 +0000] "GET / HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:07:36:30 +0000] "GET / HTTP/1.0" 404 - 0.0005
+5.20.151.152 - - [07/Nov/2018:07:42:09 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:08:08:09 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:08:25:37 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:08:28:28 +0000] "GET / HTTP/1.0" 404 - 0.0005
+62.224.100.89 - - [07/Nov/2018:08:49:07 +0000] "GET / HTTP/1.0" 404 - 0.0004
+177.102.176.12 - - [07/Nov/2018:08:51:01 +0000] "GET / HTTP/1.0" 404 - 0.0005
+I, [2018-11-07T08:52:36.473406 #25019]  INFO -- : reaped #<Process::Status: pid 25029 exit 0> worker=0
+I, [2018-11-07T08:52:36.473520 #25019]  INFO -- : reaped #<Process::Status: pid 25031 exit 0> worker=1
+I, [2018-11-07T08:52:36.473634 #25019]  INFO -- : master complete
+I, [2018-11-07T08:53:37.370265 #30460]  INFO -- : Refreshing Gem list
+I, [2018-11-07T08:53:38.772372 #30460]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-07T08:53:38.772532 #30460]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+I, [2018-11-07T08:53:38.935136 #30460]  INFO -- : master process ready
+I, [2018-11-07T08:53:38.940557 #30478]  INFO -- : worker=0 ready
+I, [2018-11-07T08:53:38.941666 #30480]  INFO -- : worker=1 ready
+127.0.0.1 - - [07/Nov/2018:08:54:49 +0000] "GET / HTTP/1.0" 404 - 0.0012
+I, [2018-11-07T09:02:26.020413 #30460]  INFO -- : reaped #<Process::Status: pid 30478 exit 0> worker=0
+I, [2018-11-07T09:02:26.020498 #30460]  INFO -- : reaped #<Process::Status: pid 30480 exit 0> worker=1
+I, [2018-11-07T09:02:26.020631 #30460]  INFO -- : master complete
+I, [2018-11-07T09:09:13.120861 #30816]  INFO -- : Refreshing Gem list
+I, [2018-11-07T09:09:13.554418 #30816]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-07T09:09:13.554579 #30816]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+I, [2018-11-07T09:09:13.628351 #30816]  INFO -- : master process ready
+I, [2018-11-07T09:09:13.633600 #30826]  INFO -- : worker=0 ready
+I, [2018-11-07T09:09:13.634818 #30828]  INFO -- : worker=1 ready
+221.249.77.222 - - [07/Nov/2018:09:09:36 +0000] "GET / HTTP/1.0" 404 - 0.0012
+221.249.77.222 - - [07/Nov/2018:09:14:08 +0000] "GET / HTTP/1.0" 404 - 0.0010
+221.249.77.222 - - [07/Nov/2018:09:14:12 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:09:14:30 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:09:21:41 +0000] "GET / HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:09:23:44 +0000] "GET / HTTP/1.0" 404 - 0.0005
+I, [2018-11-07T09:24:46.364770 #30816]  INFO -- : reaped #<Process::Status: pid 30826 exit 0> worker=0
+I, [2018-11-07T09:24:46.364872 #30816]  INFO -- : reaped #<Process::Status: pid 30828 exit 0> worker=1
+I, [2018-11-07T09:24:46.364965 #30816]  INFO -- : master complete
+I, [2018-11-07T09:37:19.533074 #31452]  INFO -- : Refreshing Gem list
+I, [2018-11-07T09:37:19.962914 #31452]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=13
+I, [2018-11-07T09:37:20.036459 #31452]  INFO -- : master process ready
+I, [2018-11-07T09:37:20.041693 #31462]  INFO -- : worker=0 ready
+I, [2018-11-07T09:37:20.042740 #31464]  INFO -- : worker=1 ready
+221.249.77.222 - - [07/Nov/2018:09:38:30 +0000] "GET / HTTP/1.0" 404 - 0.0010
+221.249.77.222 - - [07/Nov/2018:09:40:18 +0000] "GET /boards HTTP/1.0" 404 - 0.0007
+221.249.77.222 - - [07/Nov/2018:09:42:14 +0000] "GET /boards HTTP/1.0" 404 - 0.0010
+221.249.77.222 - - [07/Nov/2018:09:42:18 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:09:42:24 +0000] "GET /home HTTP/1.0" 404 - 0.0007
+221.249.77.222 - - [07/Nov/2018:09:59:30 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:10:04:00 +0000] "GET / HTTP/1.0" 404 - 0.0006
+I, [2018-11-07T10:04:15.676581 #31452]  INFO -- : reaped #<Process::Status: pid 31462 exit 0> worker=0
+I, [2018-11-07T10:04:15.676666 #31452]  INFO -- : reaped #<Process::Status: pid 31464 exit 0> worker=1
+I, [2018-11-07T10:04:15.676773 #31452]  INFO -- : master complete
+I, [2018-11-07T10:04:24.194716 #32206]  INFO -- : Refreshing Gem list
+I, [2018-11-07T10:04:24.621735 #32206]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T10:04:24.621909 #32206]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=13
+I, [2018-11-07T10:04:24.696071 #32206]  INFO -- : master process ready
+I, [2018-11-07T10:04:24.701366 #32216]  INFO -- : worker=0 ready
+I, [2018-11-07T10:04:24.702362 #32218]  INFO -- : worker=1 ready
+221.249.77.222 - - [07/Nov/2018:10:05:25 +0000] "GET / HTTP/1.0" 404 - 0.0010
+221.249.77.222 - - [07/Nov/2018:10:05:26 +0000] "GET / HTTP/1.0" 404 - 0.0012
+221.249.77.222 - - [07/Nov/2018:10:05:27 +0000] "GET / HTTP/1.0" 404 - 0.0007
+221.249.77.222 - - [07/Nov/2018:10:05:27 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:10:05:27 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:10:05:27 +0000] "GET / HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:10:05:28 +0000] "GET / HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:10:05:40 +0000] "GET / HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:10:05:41 +0000] "GET / HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:10:05:42 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:10:05:42 +0000] "GET / HTTP/1.0" 404 - 0.0006
+5.200.68.251 - - [07/Nov/2018:10:06:05 +0000] "GET / HTTP/1.0" 404 - 0.0006
+I, [2018-11-07T10:07:52.465770 #32206]  INFO -- : reaped #<Process::Status: pid 32216 exit 0> worker=0
+I, [2018-11-07T10:07:52.465864 #32206]  INFO -- : reaped #<Process::Status: pid 32218 exit 0> worker=1
+I, [2018-11-07T10:07:52.465953 #32206]  INFO -- : master complete
+I, [2018-11-07T10:15:29.597247 #32365]  INFO -- : Refreshing Gem list
+I, [2018-11-07T10:15:30.030214 #32365]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T10:15:30.030374 #32365]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=13
+I, [2018-11-07T10:15:30.104669 #32365]  INFO -- : master process ready
+I, [2018-11-07T10:15:30.110097 #32375]  INFO -- : worker=0 ready
+I, [2018-11-07T10:15:30.111333 #32377]  INFO -- : worker=1 ready
+221.249.77.222 - - [07/Nov/2018:10:16:08 +0000] "GET / HTTP/1.0" 404 - 0.0010
+221.249.77.222 - - [07/Nov/2018:10:16:15 +0000] "GET / HTTP/1.0" 404 - 0.0004
+221.249.77.222 - - [07/Nov/2018:10:16:16 +0000] "GET / HTTP/1.0" 404 - 0.0011
+221.249.77.222 - - [07/Nov/2018:10:16:17 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:10:16:26 +0000] "GET / HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:10:16:27 +0000] "GET / HTTP/1.0" 404 - 0.0007
+221.249.77.222 - - [07/Nov/2018:10:16:28 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:10:19:45 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:10:19:46 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:10:19:49 +0000] "GET / HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:10:19:51 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:10:19:52 +0000] "GET / HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:10:19:52 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:10:19:53 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:10:20:44 +0000] "GET / HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:10:20:45 +0000] "GET / HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:10:20:46 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:10:20:47 +0000] "GET / HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:10:20:48 +0000] "GET / HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:10:20:59 +0000] "GET /home HTTP/1.0" 404 - 0.0005
+221.249.77.222 - - [07/Nov/2018:10:27:02 +0000] "GET / HTTP/1.0" 404 - 0.0006
+221.249.77.222 - - [07/Nov/2018:10:27:04 +0000] "GET / HTTP/1.0" 404 - 0.0005
+I, [2018-11-07T10:27:30.105615 #32365]  INFO -- : reaped #<Process::Status: pid 32375 exit 0> worker=0
+I, [2018-11-07T10:27:30.105720 #32365]  INFO -- : reaped #<Process::Status: pid 32377 exit 0> worker=1
+I, [2018-11-07T10:27:30.105813 #32365]  INFO -- : master complete
+I, [2018-11-07T10:28:07.573686 #319]  INFO -- : Refreshing Gem list
+I, [2018-11-07T10:28:08.022570 #319]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T10:28:08.022729 #319]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=13
+I, [2018-11-07T10:28:08.098522 #319]  INFO -- : master process ready
+I, [2018-11-07T10:28:08.104270 #331]  INFO -- : worker=0 ready
+I, [2018-11-07T10:28:08.105393 #333]  INFO -- : worker=1 ready
+I, [2018-11-07T10:30:21.978077 #319]  INFO -- : reaped #<Process::Status: pid 331 exit 0> worker=0
+I, [2018-11-07T10:30:21.978176 #319]  INFO -- : reaped #<Process::Status: pid 333 exit 0> worker=1
+I, [2018-11-07T10:30:21.978270 #319]  INFO -- : master complete
+I, [2018-11-07T10:34:56.734409 #827]  INFO -- : Refreshing Gem list
+I, [2018-11-07T10:34:57.172538 #827]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-07T10:34:57.172903 #827]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+I, [2018-11-07T10:34:57.251713 #837]  INFO -- : worker=0 ready
+I, [2018-11-07T10:34:57.252783 #827]  INFO -- : master process ready
+I, [2018-11-07T10:34:57.258366 #839]  INFO -- : worker=1 ready
+I, [2018-11-07T10:34:57.259662 #843]  INFO -- : worker=2 ready
+Unicorn master intercepting TERM and sending myself QUIT instead
+I, [2018-11-07T11:14:19.145820 #827]  INFO -- : reaped #<Process::Status: pid 837 exit 0> worker=0
+I, [2018-11-07T11:14:19.145903 #827]  INFO -- : reaped #<Process::Status: pid 839 exit 0> worker=1
+I, [2018-11-07T11:14:19.145937 #827]  INFO -- : reaped #<Process::Status: pid 843 exit 0> worker=2
+I, [2018-11-07T11:14:19.146018 #827]  INFO -- : master complete
+I, [2018-11-07T11:15:14.789122 #1440]  INFO -- : Refreshing Gem list
+I, [2018-11-07T11:15:15.230961 #1440]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T11:15:15.231116 #1440]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=13
+I, [2018-11-07T11:15:15.309454 #1450]  INFO -- : worker=0 ready
+I, [2018-11-07T11:15:15.310376 #1440]  INFO -- : master process ready
+I, [2018-11-07T11:15:15.315865 #1452]  INFO -- : worker=1 ready
+I, [2018-11-07T11:15:15.316959 #1456]  INFO -- : worker=2 ready
+Unicorn master intercepting TERM and sending myself QUIT instead
+I, [2018-11-07T11:21:41.029763 #1440]  INFO -- : reaped #<Process::Status: pid 1450 exit 0> worker=0
+I, [2018-11-07T11:21:41.029849 #1440]  INFO -- : reaped #<Process::Status: pid 1452 exit 0> worker=1
+I, [2018-11-07T11:21:41.029883 #1440]  INFO -- : reaped #<Process::Status: pid 1456 exit 0> worker=2
+I, [2018-11-07T11:21:41.029964 #1440]  INFO -- : master complete
+I, [2018-11-07T11:21:50.038147 #1538]  INFO -- : Refreshing Gem list
+I, [2018-11-07T11:21:50.459952 #1538]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-07T11:21:50.460088 #1538]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+I, [2018-11-07T11:21:50.535303 #1548]  INFO -- : worker=0 ready
+I, [2018-11-07T11:21:50.536234 #1538]  INFO -- : master process ready
+I, [2018-11-07T11:21:50.541524 #1550]  INFO -- : worker=1 ready
+I, [2018-11-07T11:21:50.542650 #1554]  INFO -- : worker=2 ready
+Unicorn master intercepting TERM and sending myself QUIT instead
+I, [2018-11-07T12:28:37.131715 #1538]  INFO -- : reaped #<Process::Status: pid 1548 exit 0> worker=0
+I, [2018-11-07T12:28:37.131802 #1538]  INFO -- : reaped #<Process::Status: pid 1550 exit 0> worker=1
+I, [2018-11-07T12:28:37.131839 #1538]  INFO -- : reaped #<Process::Status: pid 1554 exit 0> worker=2
+I, [2018-11-07T12:28:37.131924 #1538]  INFO -- : master complete
+I, [2018-11-07T12:28:47.153471 #2096]  INFO -- : Refreshing Gem list
+I, [2018-11-07T12:28:47.599786 #2096]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-07T12:28:47.599939 #2096]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+I, [2018-11-07T12:28:47.679985 #2106]  INFO -- : worker=0 ready
+I, [2018-11-07T12:28:47.680928 #2096]  INFO -- : master process ready
+I, [2018-11-07T12:28:47.686433 #2108]  INFO -- : worker=1 ready
+I, [2018-11-07T12:28:47.687643 #2112]  INFO -- : worker=2 ready
+Unicorn master intercepting TERM and sending myself QUIT instead
+I, [2018-11-07T12:29:12.518868 #2096]  INFO -- : reaped #<Process::Status: pid 2106 exit 0> worker=0
+I, [2018-11-07T12:29:12.518950 #2096]  INFO -- : reaped #<Process::Status: pid 2108 exit 0> worker=1
+I, [2018-11-07T12:29:12.518987 #2096]  INFO -- : reaped #<Process::Status: pid 2112 exit 0> worker=2
+I, [2018-11-07T12:29:12.519063 #2096]  INFO -- : master complete
+I, [2018-11-07T12:30:54.570640 #2176]  INFO -- : Refreshing Gem list
+I, [2018-11-07T12:30:55.020442 #2176]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-07T12:30:55.020603 #2176]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+I, [2018-11-07T12:30:55.099537 #2186]  INFO -- : worker=0 ready
+I, [2018-11-07T12:30:55.100496 #2176]  INFO -- : master process ready
+I, [2018-11-07T12:30:55.105872 #2188]  INFO -- : worker=1 ready
+I, [2018-11-07T12:30:55.107022 #2192]  INFO -- : worker=2 ready
+Unicorn master intercepting TERM and sending myself QUIT instead
+I, [2018-11-07T12:31:33.532418 #2176]  INFO -- : reaped #<Process::Status: pid 2186 exit 0> worker=0
+I, [2018-11-07T12:31:33.532505 #2176]  INFO -- : reaped #<Process::Status: pid 2188 exit 0> worker=1
+I, [2018-11-07T12:31:33.532542 #2176]  INFO -- : reaped #<Process::Status: pid 2192 exit 0> worker=2
+I, [2018-11-07T12:31:33.532639 #2176]  INFO -- : master complete
+I, [2018-11-07T12:32:03.158247 #2397]  INFO -- : Refreshing Gem list
+I, [2018-11-07T12:32:03.605154 #2397]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2018-11-07T12:32:03.606786 #2397]  INFO -- : listening on addr=/tmp/unicorn.sock fd=13
+I, [2018-11-07T12:32:03.683596 #2407]  INFO -- : worker=0 ready
+I, [2018-11-07T12:32:03.684648 #2397]  INFO -- : master process ready
+I, [2018-11-07T12:32:03.690319 #2409]  INFO -- : worker=1 ready
+I, [2018-11-07T12:32:03.691661 #2413]  INFO -- : worker=2 ready
+Unicorn master intercepting TERM and sending myself QUIT instead
+I, [2018-11-07T12:33:54.383310 #2397]  INFO -- : reaped #<Process::Status: pid 2407 exit 0> worker=0
+I, [2018-11-07T12:33:54.383397 #2397]  INFO -- : reaped #<Process::Status: pid 2409 exit 0> worker=1
+I, [2018-11-07T12:33:54.383437 #2397]  INFO -- : reaped #<Process::Status: pid 2413 exit 0> worker=2
+I, [2018-11-07T12:33:54.383526 #2397]  INFO -- : master complete
+I, [2018-11-07T12:34:03.145451 #2504]  INFO -- : Refreshing Gem list
+I, [2018-11-07T12:34:03.589290 #2504]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T12:34:03.589620 #2504]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=13
+I, [2018-11-07T12:34:03.667741 #2514]  INFO -- : worker=0 ready
+I, [2018-11-07T12:34:03.668759 #2504]  INFO -- : master process ready
+I, [2018-11-07T12:34:03.674269 #2516]  INFO -- : worker=1 ready
+I, [2018-11-07T12:34:03.675587 #2520]  INFO -- : worker=2 ready
+I, [2018-11-07T13:11:11.653572 #2504]  INFO -- : reaped #<Process::Status: pid 2514 exit 0> worker=0
+I, [2018-11-07T13:11:11.653654 #2504]  INFO -- : reaped #<Process::Status: pid 2516 exit 0> worker=1
+I, [2018-11-07T13:11:11.653683 #2504]  INFO -- : reaped #<Process::Status: pid 2520 exit 0> worker=2
+I, [2018-11-07T13:11:11.653760 #2504]  INFO -- : master complete
+I, [2018-11-07T13:11:19.021608 #4414]  INFO -- : Refreshing Gem list
+I, [2018-11-07T13:11:19.580043 #4414]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T13:11:19.580214 #4414]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=15
+I, [2018-11-07T13:11:19.666648 #4424]  INFO -- : worker=0 ready
+I, [2018-11-07T13:11:19.667584 #4414]  INFO -- : master process ready
+I, [2018-11-07T13:11:19.676193 #4426]  INFO -- : worker=1 ready
+I, [2018-11-07T13:11:19.680482 #4430]  INFO -- : worker=2 ready
+I, [2018-11-07T13:19:58.082918 #4414]  INFO -- : reaped #<Process::Status: pid 4424 exit 0> worker=0
+I, [2018-11-07T13:19:58.082999 #4414]  INFO -- : reaped #<Process::Status: pid 4426 exit 0> worker=1
+I, [2018-11-07T13:19:58.083030 #4414]  INFO -- : reaped #<Process::Status: pid 4430 exit 0> worker=2
+I, [2018-11-07T13:19:58.083102 #4414]  INFO -- : master complete
+I, [2018-11-07T13:20:18.863772 #4589]  INFO -- : Refreshing Gem list
+config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+
+  * development - set it to false
+  * test - set it to false (unless you use a tool that preloads your test environment)
+  * production - set it to true
+
+I, [2018-11-07T13:20:19.343487 #4589]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T13:20:19.343635 #4589]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=13
+E, [2018-11-07T13:20:19.412355 #4589] ERROR -- : 'staging' database is not configured. Available: ["default", "development", "test", "production"] (ActiveRecord::AdapterNotSpecified)
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:260:in `resolve_symbol_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:241:in `resolve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:143:in `resolve'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:57:in `establish_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/railtie.rb:136:in `block (2 levels) in <class:Railtie>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:71:in `instance_eval'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:71:in `block in execute_hook'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:62:in `with_execution_control'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:67:in `execute_hook'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:51:in `each'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/base.rb:328:in `<module:ActiveRecord>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/base.rb:27:in `<main>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `require'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `block in require'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:253:in `load_dependency'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `require'
+/home/maharu/lesson2/config/unicorn.rb:16:in `block in reload'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn_rails:209:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:28:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:463:in `exec'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:27:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:18:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:30:in `block in <top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+I, [2018-11-07T13:20:38.159762 #4627]  INFO -- : Refreshing Gem list
+config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+
+  * development - set it to false
+  * test - set it to false (unless you use a tool that preloads your test environment)
+  * production - set it to true
+
+I, [2018-11-07T13:20:38.659874 #4627]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T13:20:38.660025 #4627]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=13
+E, [2018-11-07T13:20:38.732720 #4627] ERROR -- : 'staging' database is not configured. Available: ["default", "development", "test", "production"] (ActiveRecord::AdapterNotSpecified)
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:260:in `resolve_symbol_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:241:in `resolve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:143:in `resolve'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:57:in `establish_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/railtie.rb:136:in `block (2 levels) in <class:Railtie>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:71:in `instance_eval'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:71:in `block in execute_hook'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:62:in `with_execution_control'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:67:in `execute_hook'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:51:in `each'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/base.rb:328:in `<module:ActiveRecord>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/base.rb:27:in `<main>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `require'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `block in require'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:253:in `load_dependency'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `require'
+/home/maharu/lesson2/config/unicorn.rb:16:in `block in reload'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn_rails:209:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:28:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:463:in `exec'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:27:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:18:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:30:in `block in <top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+I, [2018-11-07T13:22:15.056001 #4747]  INFO -- : Refreshing Gem list
+config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+
+  * development - set it to false
+  * test - set it to false (unless you use a tool that preloads your test environment)
+  * production - set it to true
+
+I, [2018-11-07T13:22:15.534444 #4747]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T13:22:15.534615 #4747]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=13
+E, [2018-11-07T13:22:15.603541 #4747] ERROR -- : 'staging' database is not configured. Available: ["default", "development", "test", "production"] (ActiveRecord::AdapterNotSpecified)
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:260:in `resolve_symbol_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:241:in `resolve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:143:in `resolve'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:57:in `establish_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/railtie.rb:136:in `block (2 levels) in <class:Railtie>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:71:in `instance_eval'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:71:in `block in execute_hook'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:62:in `with_execution_control'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:67:in `execute_hook'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:51:in `each'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/base.rb:328:in `<module:ActiveRecord>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/base.rb:27:in `<main>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `require'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `block in require'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:253:in `load_dependency'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `require'
+/home/maharu/lesson2/config/unicorn.rb:16:in `block in reload'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn_rails:209:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:28:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:463:in `exec'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:27:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:18:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:30:in `block in <top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+I, [2018-11-07T13:23:04.138215 #4782]  INFO -- : Refreshing Gem list
+config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+
+  * development - set it to false
+  * test - set it to false (unless you use a tool that preloads your test environment)
+  * production - set it to true
+
+I, [2018-11-07T13:23:04.544046 #4782]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T13:23:04.544215 #4782]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=11
+E, [2018-11-07T13:23:04.585390 #4782] ERROR -- : 'staging' database is not configured. Available: ["default", "development", "test", "production"] (ActiveRecord::AdapterNotSpecified)
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:260:in `resolve_symbol_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:241:in `resolve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:143:in `resolve'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:57:in `establish_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/railtie.rb:136:in `block (2 levels) in <class:Railtie>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:71:in `instance_eval'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:71:in `block in execute_hook'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:62:in `with_execution_control'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:67:in `execute_hook'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:51:in `each'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/base.rb:328:in `<module:ActiveRecord>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/base.rb:27:in `<main>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `block in require_with_bootsnap_lfi'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/loaded_features_index.rb:65:in `register'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:20:in `require_with_bootsnap_lfi'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:29:in `require'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `block in require'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:253:in `load_dependency'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `require'
+/home/maharu/lesson2/config/unicorn.rb:16:in `block in reload'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn_rails:209:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:28:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:463:in `exec'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:27:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:18:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:30:in `block in <top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+I, [2018-11-07T13:23:41.082287 #4874]  INFO -- : Refreshing Gem list
+config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+
+  * development - set it to false
+  * test - set it to false (unless you use a tool that preloads your test environment)
+  * production - set it to true
+
+I, [2018-11-07T13:23:41.488844 #4874]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T13:23:41.488996 #4874]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=11
+E, [2018-11-07T13:23:41.530391 #4874] ERROR -- : 'staging' database is not configured. Available: ["default", "development", "test", "production"] (ActiveRecord::AdapterNotSpecified)
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:260:in `resolve_symbol_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:241:in `resolve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:143:in `resolve'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:57:in `establish_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/railtie.rb:136:in `block (2 levels) in <class:Railtie>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:71:in `instance_eval'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:71:in `block in execute_hook'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:62:in `with_execution_control'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:67:in `execute_hook'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:51:in `each'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/base.rb:328:in `<module:ActiveRecord>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/base.rb:27:in `<main>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `block in require_with_bootsnap_lfi'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/loaded_features_index.rb:65:in `register'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:20:in `require_with_bootsnap_lfi'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:29:in `require'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `block in require'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:253:in `load_dependency'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `require'
+/home/maharu/lesson2/config/unicorn.rb:16:in `block in reload'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn_rails:209:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:28:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:463:in `exec'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:27:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:18:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:30:in `block in <top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+I, [2018-11-07T13:24:18.145419 #4932]  INFO -- : Refreshing Gem list
+config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+
+  * development - set it to false
+  * test - set it to false (unless you use a tool that preloads your test environment)
+  * production - set it to true
+
+I, [2018-11-07T13:24:18.550178 #4932]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T13:24:18.550508 #4932]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=11
+E, [2018-11-07T13:24:18.591764 #4932] ERROR -- : 'staging' database is not configured. Available: ["default", "development", "test", "production"] (ActiveRecord::AdapterNotSpecified)
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:260:in `resolve_symbol_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:241:in `resolve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/connection_specification.rb:143:in `resolve'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:57:in `establish_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/railtie.rb:136:in `block (2 levels) in <class:Railtie>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:71:in `instance_eval'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:71:in `block in execute_hook'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:62:in `with_execution_control'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:67:in `execute_hook'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:51:in `each'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/base.rb:328:in `<module:ActiveRecord>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/base.rb:27:in `<main>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `block in require_with_bootsnap_lfi'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/loaded_features_index.rb:65:in `register'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:20:in `require_with_bootsnap_lfi'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:29:in `require'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `block in require'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:253:in `load_dependency'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.2.1/lib/active_support/dependencies.rb:287:in `require'
+/home/maharu/lesson2/config/unicorn.rb:16:in `block in reload'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn_rails:209:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:28:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:463:in `exec'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:27:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:18:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:30:in `block in <top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+I, [2018-11-07T13:26:04.628989 #4975]  INFO -- : Refreshing Gem list
+config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+
+  * development - set it to false
+  * test - set it to false (unless you use a tool that preloads your test environment)
+  * production - set it to true
+
+I, [2018-11-07T13:26:05.027395 #4975]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T13:26:05.027563 #4975]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=11
+E, [2018-11-07T13:26:05.074586 #4975] ERROR -- : Unknown database 'db/staging' (ActiveRecord::NoDatabaseError)
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:26:in `rescue in mysql2_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/mysql2_adapter.rb:12:in `mysql2_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_handling.rb:90:in `connection'
+/home/maharu/lesson2/config/unicorn.rb:16:in `block in reload'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:543:in `spawn_missing_workers'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/lib/unicorn/http_server.rb:142:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/unicorn-5.4.1/bin/unicorn_rails:209:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/unicorn_rails:23:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli/exec.rb:28:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:463:in `exec'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:27:in `dispatch'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/cli.rb:18:in `start'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:30:in `block in <top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+/home/maharu/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/exe/bundle:22:in `<top (required)>'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `load'
+/home/maharu/.rbenv/versions/2.5.3/bin/bundle:23:in `<main>'
+I, [2018-11-07T13:27:16.696940 #5015]  INFO -- : Refreshing Gem list
+config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+
+  * development - set it to false
+  * test - set it to false (unless you use a tool that preloads your test environment)
+  * production - set it to true
+
+I, [2018-11-07T13:27:17.092826 #5015]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T13:27:17.093159 #5015]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=11
+I, [2018-11-07T13:27:17.145998 #5019]  INFO -- : worker=0 ready
+I, [2018-11-07T13:27:17.147032 #5015]  INFO -- : master process ready
+I, [2018-11-07T13:27:17.152713 #5021]  INFO -- : worker=1 ready
+I, [2018-11-07T13:27:17.154088 #5025]  INFO -- : worker=2 ready
+I, [2018-11-07T13:28:35.321988 #5015]  INFO -- : reaped #<Process::Status: pid 5019 exit 0> worker=0
+I, [2018-11-07T13:28:35.322092 #5015]  INFO -- : reaped #<Process::Status: pid 5021 exit 0> worker=1
+I, [2018-11-07T13:28:35.322137 #5015]  INFO -- : reaped #<Process::Status: pid 5025 exit 0> worker=2
+I, [2018-11-07T13:28:35.322223 #5015]  INFO -- : master complete
+I, [2018-11-07T13:30:16.391457 #5201]  INFO -- : Refreshing Gem list
+I, [2018-11-07T13:30:17.311620 #5201]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T13:30:17.311941 #5201]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=13
+I, [2018-11-07T13:30:17.318264 #5205]  INFO -- : worker=0 ready
+I, [2018-11-07T13:30:17.319302 #5201]  INFO -- : master process ready
+I, [2018-11-07T13:30:17.324185 #5207]  INFO -- : worker=1 ready
+I, [2018-11-07T13:30:17.332474 #5211]  INFO -- : worker=2 ready
+I, [2018-11-07T13:37:45.568480 #5201]  INFO -- : reaped #<Process::Status: pid 5205 exit 0> worker=0
+I, [2018-11-07T13:37:45.568568 #5201]  INFO -- : reaped #<Process::Status: pid 5207 exit 0> worker=1
+I, [2018-11-07T13:37:45.568602 #5201]  INFO -- : reaped #<Process::Status: pid 5211 exit 0> worker=2
+I, [2018-11-07T13:37:45.568648 #5201]  INFO -- : master complete
+I, [2018-11-07T13:38:26.319231 #5639]  INFO -- : Refreshing Gem list
+I, [2018-11-07T13:38:27.041547 #5639]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T13:38:27.041702 #5639]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=13
+I, [2018-11-07T13:38:27.048130 #5643]  INFO -- : worker=0 ready
+I, [2018-11-07T13:38:27.049080 #5639]  INFO -- : master process ready
+I, [2018-11-07T13:38:27.060502 #5645]  INFO -- : worker=1 ready
+I, [2018-11-07T13:38:27.061706 #5649]  INFO -- : worker=2 ready
+I, [2018-11-07T13:47:25.648282 #5639]  INFO -- : reaped #<Process::Status: pid 5643 exit 0> worker=0
+I, [2018-11-07T13:47:25.648435 #5639]  INFO -- : reaped #<Process::Status: pid 5645 exit 0> worker=1
+I, [2018-11-07T13:47:25.648473 #5639]  INFO -- : reaped #<Process::Status: pid 5649 exit 0> worker=2
+I, [2018-11-07T13:47:25.648518 #5639]  INFO -- : master complete
+I, [2018-11-07T13:47:38.415882 #5959]  INFO -- : Refreshing Gem list
+I, [2018-11-07T13:47:39.171066 #5959]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T13:47:39.171262 #5959]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=13
+I, [2018-11-07T13:47:39.177578 #5963]  INFO -- : worker=0 ready
+I, [2018-11-07T13:47:39.178604 #5959]  INFO -- : master process ready
+I, [2018-11-07T13:47:39.183824 #5965]  INFO -- : worker=1 ready
+I, [2018-11-07T13:47:39.192400 #5969]  INFO -- : worker=2 ready
+I, [2018-11-07T13:50:44.359568 #5959]  INFO -- : reaped #<Process::Status: pid 5963 exit 0> worker=0
+I, [2018-11-07T13:50:44.359644 #5959]  INFO -- : reaped #<Process::Status: pid 5965 exit 0> worker=1
+I, [2018-11-07T13:50:44.359674 #5959]  INFO -- : reaped #<Process::Status: pid 5969 exit 0> worker=2
+I, [2018-11-07T13:50:44.359719 #5959]  INFO -- : master complete
+I, [2018-11-07T13:50:44.549683 #6237]  INFO -- : Refreshing Gem list
+I, [2018-11-07T13:50:45.301567 #6237]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-07T13:50:45.301712 #6237]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=13
+I, [2018-11-07T13:50:45.308233 #6241]  INFO -- : worker=0 ready
+I, [2018-11-07T13:50:45.309178 #6237]  INFO -- : master process ready
+I, [2018-11-07T13:50:45.320514 #6243]  INFO -- : worker=1 ready
+I, [2018-11-07T13:50:45.321727 #6247]  INFO -- : worker=2 ready
+I, [2018-11-07T14:03:13.990684 #6237]  INFO -- : reaped #<Process::Status: pid 6241 exit 0> worker=0
+I, [2018-11-07T14:03:13.990770 #6237]  INFO -- : reaped #<Process::Status: pid 6243 exit 0> worker=1
+I, [2018-11-07T14:03:13.990805 #6237]  INFO -- : reaped #<Process::Status: pid 6247 exit 0> worker=2
+I, [2018-11-07T14:03:13.990849 #6237]  INFO -- : master complete
+I, [2018-11-08T03:19:14.013266 #8413]  INFO -- : Refreshing Gem list
+I, [2018-11-08T03:19:14.462088 #8413]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-08T03:19:14.462259 #8413]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=13
+I, [2018-11-08T03:19:14.540430 #8423]  INFO -- : worker=0 ready
+I, [2018-11-08T03:19:14.541417 #8413]  INFO -- : master process ready
+I, [2018-11-08T03:19:14.546860 #8425]  INFO -- : worker=1 ready
+I, [2018-11-08T03:19:14.547969 #8429]  INFO -- : worker=2 ready
+Unicorn master intercepting TERM and sending myself QUIT instead
+I, [2018-11-08T05:37:51.506954 #8413]  INFO -- : reaped #<Process::Status: pid 8423 exit 0> worker=0
+I, [2018-11-08T05:37:51.507050 #8413]  INFO -- : reaped #<Process::Status: pid 8425 exit 0> worker=1
+I, [2018-11-08T05:37:51.507096 #8413]  INFO -- : reaped #<Process::Status: pid 8429 exit 0> worker=2
+I, [2018-11-08T05:37:51.507206 #8413]  INFO -- : master complete
+I, [2018-11-08T05:52:34.176766 #9397]  INFO -- : Refreshing Gem list
+I, [2018-11-08T05:52:34.611000 #9397]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-08T05:52:34.611177 #9397]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=13
+I, [2018-11-08T05:52:34.682915 #9407]  INFO -- : worker=0 ready
+I, [2018-11-08T05:52:34.683876 #9397]  INFO -- : master process ready
+I, [2018-11-08T05:52:34.689256 #9409]  INFO -- : worker=1 ready
+I, [2018-11-08T05:52:34.690414 #9413]  INFO -- : worker=2 ready
+Unicorn master intercepting TERM and sending myself QUIT instead
+I, [2018-11-08T06:36:57.094350 #9397]  INFO -- : reaped #<Process::Status: pid 9407 exit 0> worker=0
+I, [2018-11-08T06:36:57.094441 #9397]  INFO -- : reaped #<Process::Status: pid 9409 exit 0> worker=1
+I, [2018-11-08T06:36:57.094476 #9397]  INFO -- : reaped #<Process::Status: pid 9413 exit 0> worker=2
+I, [2018-11-08T06:36:57.094578 #9397]  INFO -- : master complete
+I, [2018-11-08T06:38:42.292888 #10023]  INFO -- : Refreshing Gem list
+I, [2018-11-08T06:38:42.731044 #10023]  INFO -- : unlinking existing socket=/home/maharu/lesson2/tmp/unicorn.sock
+I, [2018-11-08T06:38:42.731271 #10023]  INFO -- : listening on addr=/home/maharu/lesson2/tmp/unicorn.sock fd=13
+I, [2018-11-08T06:38:42.807340 #10033]  INFO -- : worker=0 ready
+I, [2018-11-08T06:38:42.808218 #10023]  INFO -- : master process ready
+I, [2018-11-08T06:38:42.813656 #10035]  INFO -- : worker=1 ready
+I, [2018-11-08T06:38:42.814818 #10039]  INFO -- : worker=2 ready
+221.249.77.222 - - [08/Nov/2018:06:51:33 +0000] "GET / HTTP/1.0" 200 - 0.2280
+221.249.77.222 - - [08/Nov/2018:06:51:33 +0000] "GET /application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1 HTTP/1.0" 200 676 0.0032
+221.249.77.222 - - [08/Nov/2018:06:51:33 +0000] "GET /rails-ujs.self-3b600681e552d8090230990c0a2e8537aff48159bea540d275a620d272ba33a0.js?body=1 HTTP/1.0" 200 26758 0.0114
+221.249.77.222 - - [08/Nov/2018:06:51:33 +0000] "GET /turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 200 38521 0.0128
+221.249.77.222 - - [08/Nov/2018:06:51:33 +0000] "GET /activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1 HTTP/1.0" 200 19248 0.0112
+221.249.77.222 - - [08/Nov/2018:06:51:34 +0000] "GET /boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.0026
+221.249.77.222 - - [08/Nov/2018:06:51:34 +0000] "GET /boards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 200 - 0.4102
+221.249.77.222 - - [08/Nov/2018:06:51:34 +0000] "GET /scaffolds.self-baa48258f063d6bb3c9e3eb7426d5de7c8e24116921a96e2a26494fb5013424d.css?body=1 HTTP/1.0" 200 2198 0.4081
+221.249.77.222 - - [08/Nov/2018:06:51:34 +0000] "GET /action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 200 20539 0.0033
+221.249.77.222 - - [08/Nov/2018:06:51:34 +0000] "GET /cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 200 293 0.0025
+221.249.77.222 - - [08/Nov/2018:06:51:34 +0000] "GET /application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 200 635 0.0072
+221.249.77.222 - - [08/Nov/2018:06:53:32 +0000] "GET / HTTP/1.0" 200 - 0.0659
+221.249.77.222 - - [08/Nov/2018:06:53:33 +0000] "GET /boards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 200 - 0.0025
+221.249.77.222 - - [08/Nov/2018:06:53:33 +0000] "GET /scaffolds.self-baa48258f063d6bb3c9e3eb7426d5de7c8e24116921a96e2a26494fb5013424d.css?body=1 HTTP/1.0" 200 2198 0.0028
+221.249.77.222 - - [08/Nov/2018:06:53:33 +0000] "GET /application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1 HTTP/1.0" 200 676 0.0030
+221.249.77.222 - - [08/Nov/2018:06:53:33 +0000] "GET /boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.0028
+221.249.77.222 - - [08/Nov/2018:06:53:33 +0000] "GET /rails-ujs.self-3b600681e552d8090230990c0a2e8537aff48159bea540d275a620d272ba33a0.js?body=1 HTTP/1.0" 200 26758 0.0101
+221.249.77.222 - - [08/Nov/2018:06:53:33 +0000] "GET /activestorage.self-0525629bb5bac7ed5f2bfc58a9679d75705e426dafd6957ae9879db97c8e9cbe.js?body=1 HTTP/1.0" 200 19248 0.0076
+221.249.77.222 - - [08/Nov/2018:06:53:33 +0000] "GET /turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 200 38521 0.0093
+221.249.77.222 - - [08/Nov/2018:06:53:33 +0000] "GET /action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 200 20539 0.0044
+221.249.77.222 - - [08/Nov/2018:06:53:33 +0000] "GET /cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 200 293 0.0031
+221.249.77.222 - - [08/Nov/2018:06:53:33 +0000] "GET /application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 200 635 0.0035
+221.249.77.222 - - [08/Nov/2018:06:53:37 +0000] "GET /boards/new HTTP/1.0" 200 - 0.0604
+221.249.77.222 - - [08/Nov/2018:06:53:41 +0000] "POST /boards HTTP/1.0" 302 - 0.0501
+221.249.77.222 - - [08/Nov/2018:06:53:42 +0000] "GET /boards/2 HTTP/1.0" 200 - 0.0426
+221.249.77.222 - - [08/Nov/2018:06:53:44 +0000] "GET /boards HTTP/1.0" 200 - 0.0281
+221.249.77.222 - - [08/Nov/2018:06:53:46 +0000] "GET /boards/2 HTTP/1.0" 200 - 0.0153
+221.249.77.222 - - [08/Nov/2018:06:53:48 +0000] "GET /boards HTTP/1.0" 200 - 0.0338
+221.249.77.222 - - [08/Nov/2018:06:53:49 +0000] "GET /boards/2/edit HTTP/1.0" 200 - 0.0177
+221.249.77.222 - - [08/Nov/2018:06:53:50 +0000] "GET /boards HTTP/1.0" 200 - 0.0338
+221.249.77.222 - - [08/Nov/2018:06:53:53 +0000] "DELETE /boards/2 HTTP/1.0" 302 - 0.0140
+221.249.77.222 - - [08/Nov/2018:06:53:53 +0000] "GET /boards HTTP/1.0" 200 - 0.0348
+221.249.77.222 - - [08/Nov/2018:06:53:56 +0000] "GET /boards/new HTTP/1.0" 200 - 0.0169
+221.249.77.222 - - [08/Nov/2018:06:53:59 +0000] "POST /boards HTTP/1.0" 302 - 0.0091
+221.249.77.222 - - [08/Nov/2018:06:54:00 +0000] "GET /boards/3 HTTP/1.0" 200 - 0.0160
+221.249.77.222 - - [08/Nov/2018:06:54:03 +0000] "GET /boards HTTP/1.0" 200 - 0.0160
+221.249.77.222 - - [08/Nov/2018:06:54:05 +0000] "GET /boards HTTP/1.0" 200 - 0.0155
